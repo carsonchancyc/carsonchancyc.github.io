@@ -1,0 +1,119 @@
+/*
+* CSCI2720/ESTR2106 Assignment 1
+* Bootstrap Web Page with a Web Form
+*
+* I declare that the assignment here submitted is original
+* except for source material explicitly acknowledged,
+* and that the same or closely related material has not been
+* previously submitted for another course.
+* I also acknowledge that I am aware of University policy and
+* regulations on honesty in academic work, and of the disciplinary
+* guidelines and procedures applicable to breaches of such
+* policy and regulations, as contained in the website.
+*
+* University Guideline on Academic Honesty:
+*   http://www.cuhk.edu.hk/policy/academichonesty
+* Faculty of Engineering Guidelines to Academic Honesty:
+*   https://www.erg.cuhk.edu.hk/erg/AcademicHonesty
+*
+* Student Name: Chan Yik Ching <fill in yourself>
+* Student ID  : 1155142196 <fill in yourself>
+* Date        : 21/10/2022 <fill in yourself>
+*/
+
+
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+h2 {
+    padding-top: 15px;
+}
+
+
+#header {
+    margin-bottom: 0;
+    background-image: url("./cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+section{
+    background-color: bisque;
+    padding: 10px 20px;
+}
+
+#about {
+    background-color: #E0FFFF;
+
+}
+
+#courses {
+    background-color: #FFB6C1;
+}
+
+.progress {
+    border-radius: 0;
+    z-index: 10;
+}
+
+.table {
+    border: 1px solid black;
+}
+
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+
+}
+
+.nav-item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+#special {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+.taskbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+    text-align: center;
+}
+
+.task-item {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#comment {
+
+    word-break: break-all;
+}
